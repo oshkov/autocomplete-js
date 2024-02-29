@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Autocomplete</title>
+</head>
+<body>
+
+    <form method="post" action="" enctype="multipart/form-data" id="form">
+        <div class="form_block" id="city_form">
+            <h2 class="for_input">Укажи свой город:</h2>
+            <div class="autocomplete">
+                <input type="text" id="city_input" placeholder="Введите город" class="write" name="city">
+                <div class="autocomplete-items"></div>
+            </div>
+            <p class="error" id="error_city"></p>
+            <button id="continue_city" type="button">Продолжить</button>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
